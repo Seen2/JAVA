@@ -26,6 +26,7 @@ public class Tempreture {
 		scale=newScale;
 		value=newValue;
 	}
+	//==> instance methods
 	//temperature converters
 	public float  tempratureC(float f){
 		if(this.scale=='F') {
@@ -91,7 +92,9 @@ public class Tempreture {
 		return Float.toString(this.value)+this.scale	;
 	}
 	/*
+	 
 	//use of static keyword
+	 //==> class methods
 	public static int compareTempretures(Tempreture t,Tempreture T) {
 		if((T.scale=='F' && t.scale=='F')|| (T.scale=='C' && t.scale=='C')) {	
 			if(T.value==t.value) {
