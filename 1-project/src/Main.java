@@ -2,16 +2,20 @@
 public class Main {
 	public static void main( String []args) {
 		
-		float val=12.09f;
+		float val=10.09f;
 		
-		Temprature one=new Temprature();
-		Temprature two=new Temprature(val);
-		Temprature three=new Temprature('C');
-		Temprature four=new Temprature(val,'C');
+		Tempreture one=new Tempreture();
+		//Tempreture two=new Tempreture(val);
+		//Tempreture three=new Tempreture('C');
+		//Tempreture four=new Tempreture(val,'C');
+		Tempreture n=new Tempreture(val,'F');
+		System.out.println(one.getTempreture());
+		System.out.println(n.getTempreture());
 		
-		System.out.println(one.getValue());
-		one.tempratureC(-40);
-		System.out.println(one.getValue());
+		//System.out.println(n.getTempreture());
+		//System.out.println(n.tempratureC(-40));
+		System.out.println(one.compareTempreture(n));
+		//System.out.println(n.getTempreture());
 	}
 
 }
