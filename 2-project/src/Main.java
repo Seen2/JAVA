@@ -28,7 +28,13 @@ public class Main {
 //		System.out.println(aOne.getAge());
 		
 		//Casting
-		
+//		UltraTetra uT=new UltraTetra("Sneda",10);
+//		Dino nOne=(Dino) uT;
+//		System.out.println(nOne.getAge());
+//		System.out.println(nOne.getClass());
+//		nOne.setName("S");
+//		System.out.println(nOne.getName());
+//		
 		
 	}
 }
