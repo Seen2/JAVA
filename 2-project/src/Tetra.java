@@ -1,11 +1,11 @@
 
 public class Tetra extends Dino{
 	
-	private int legs;
+	private int legs=0;
 
 	Tetra(){
 		super();
-		legs=0;
+		
 	}
 	
 	Tetra(String n){
