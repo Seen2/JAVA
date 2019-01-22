@@ -23,7 +23,7 @@ public class Dino {
 	}
 	
 	public void setName(String newName) {
-		this.name=newName;
+		name=newName;
 	}
 	public void setAge(int newAge) {
 		age=newAge;
