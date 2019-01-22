@@ -1,7 +1,7 @@
 
 public class Dino {
 	private String name;
-	private int age;
+	private int age;	
 	
 	Dino(){
 		name="No name yet..";

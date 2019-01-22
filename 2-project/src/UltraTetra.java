@@ -18,6 +18,10 @@ public class UltraTetra extends Tetra{
 	UltraTetra(String n,int a, int l){
 		super(n,a,l);
 	}
+	UltraTetra(String n,int a, boolean u){
+		super(n,a);
+		ultraSpecies=u;
+	}
 	UltraTetra(String n,int a, int l, boolean u){
 		super(n,a,l);
 		ultraSpecies=u;

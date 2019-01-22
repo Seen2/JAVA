@@ -9,10 +9,26 @@ public class Main {
 		//System.out.println(dOne.getName());
 		
 		Tetra tetraOne=new Tetra("Senda");
-		System.out.println(tetraOne.getName());
-		System.out.println(tetraOne.getLegs());
+		//System.out.println(tetraOne.getName());
+		//System.out.println(tetraOne.getLegs());
 		tetraOne.setLegs(4);
-		System.out.println(tetraOne.getLegs());
-
+		//System.out.println(tetraOne.getLegs());
+		
+		//UltraTetra uTOne=new UltraTetra();
+		//System.out.println(uTOne.getName());
+		
+		//UltraTetra uTTwo=new UltraTetra("Nidhi",22,2,true);
+//		System.out.println(uTTwo.getName());
+//		System.out.println(uTTwo.getAge());
+//		System.out.println(uTTwo.getUltraSpecies());
+//		System.out.println(uTTwo.getLegs());
+//		
+//		Apart aOne=new Apart("Shintu",20);
+//		System.out.println(aOne.getName());
+//		System.out.println(aOne.getAge());
+		
+		//Casting
+		
+		
 	}
 }
