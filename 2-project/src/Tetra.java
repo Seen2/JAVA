@@ -2,6 +2,8 @@
 public class Tetra extends Dino{
 	
 	private int legs=0;
+	
+	//for overriding purpose
 	protected int teeths=0;
 
 	Tetra(){
