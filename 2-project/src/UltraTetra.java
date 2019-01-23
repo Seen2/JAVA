@@ -34,5 +34,12 @@ public class UltraTetra extends Tetra{
 	public boolean getUltraSpecies() {
 		return ultraSpecies;
 	}
+	//overriding
+	//i)parameter of super and sub are same.
+	//ii) return type is same.
+	//iii) wider access modifiers.
+	public void setTeeths(int t) {
+		teeths=t;	
+	}
 
 }
