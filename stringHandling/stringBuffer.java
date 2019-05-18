@@ -52,6 +52,13 @@ public class stringBuffer {
 
     s.delete(0, s.length());
     System.out.println(s);
+    char c = 'a';
+    String ss = Character.toString(c);
+    System.out.println(ss);
+    ss = ss + " cc";
+    System.out.println(ss);
+
+    // s.del
 
   }
 }
