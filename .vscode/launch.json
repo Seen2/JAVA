@@ -1,0 +1,77 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - IteratorExample",
+      "request": "launch",
+      "mainClass": "IteratorExample",
+      "projectName": "3-Collection"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch) - Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-Main<1-project>",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "1-project"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-Main<2-project>",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "2-project"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-LinkedListExample<3-Collection>",
+      "request": "launch",
+      "mainClass": "LinkedListExample",
+      "projectName": "3-Collection"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-ListExample<3-Collection>",
+      "request": "launch",
+      "mainClass": "ListExample",
+      "projectName": "3-Collection"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-SetExample<3-Collection>",
+      "request": "launch",
+      "mainClass": "SetExample",
+      "projectName": "3-Collection"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-Hello<Hello>",
+      "request": "launch",
+      "mainClass": "Hello",
+      "projectName": "Hello"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-Test<Interfaces>",
+      "request": "launch",
+      "mainClass": "Test",
+      "projectName": "Interfaces"
+    },
+    {
+      "type": "java",
+      "name": "Debug (Launch)-Main<Pencil>",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "Pencil"
+    }
+  ]
+}
